@@ -1,9 +1,17 @@
 [
-    { "id": 1, "nombre": "Juan", "apellido": "Perez" },
-    { "id": 2, "nombre": "Maria", "apellido": "Gomez" },
-    { "id": 4, "nombre": "Cesar", "apellido": "Rodriguez" },
-    { "id": 5, "nombre": "Juan", "apellido": "Casas" },
-    { "id": 6, "nombre": "Pedro", "apellido": "Lopez" },
-    { "id": 7, "nombre": "Alex", "apellido": "Quintero" },
-    { "id": 8, "nombre": "Luna", "apellido": "Bermudez" }
+    { "id": 1,  "nombre": "Juan Pérez", "correo": "juan@example.com", "edad": 32 },
+    { "id": 2, "nombre": "Maria Gomez","correo": "maria@example.com", "edad": 23 },
+    { "id": 4, "nombre": "Cesar Rodriguez","correo": "cesar@example.com", "edad": 18 },
+    { "id": 5, "nombre": "Juan Casas" ,"correo": "juacasas@example.com", "edad": 39 },
+    { "id": 6, "nombre": "Pedro Lopez" ,"correo": "pedro@example.com", "edad": 12 },
+    { "id": 7, "nombre": "Alex Quintero" ,"correo": "alex@example.com", "edad": 19},
+    { "id": 8, "nombre": "Luna Bermudez" ,"correo": "luna@example.com", "edad": 30 },
+    { "id": 9,  "nombre": "Juan Rodriguez", "correo": "juan@example.com", "edad": 32 },
+    { "id": 10, "nombre": "Maria Perez","correo": "maria@example.com", "edad": 23 },
+    { "id": 11, "nombre": "Cesar Carrillo","correo": "cesar@example.com", "edad": 18 },
+    { "id": 12, "nombre": "Juan Gomez" ,"correo": "juacasas@example.com", "edad": 39 },
+    { "id": 13, "nombre": "Pedro Bermudez" ,"correo": "pedro@example.com", "edad": 12 },
+    { "id": 14, "nombre": "Alex Casas" ,"correo": "alex@example.com", "edad": 19},
+    { "id": 15, "nombre": "Luna Rodirguez" ,"correo": "luna@example.com", "edad": 30 }
+    
   ]

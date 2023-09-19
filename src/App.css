@@ -1,42 +1,76 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+/* app.css */
+body {
+  color: black;
+  font-family: Arial, sans-serif;
   text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.container {
+  text-align: left;
+  max-width: 800px;
+  margin: 20px;
+  
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.user-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
 
-.card {
-  padding: 2em;
+.user-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  width: 200px;
+  margin: 10px;
+  
 }
 
-.read-the-docs {
-  color: #888;
+.selected-users {
+  margin-top: 30px;
+  
+}
+
+.selected-users h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.selected-users .user-card {
+  background-color: #818181;
+  color: #fff;
+  cursor: default;
+}
+
+.selected-users .user-card button {
+  background-color: #1d1d1d;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.usuarios{
+  display: flex;
+}
+input{
+ display:inline !important;
 }

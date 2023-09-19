@@ -1,0 +1,9 @@
+[
+    { "id": 1, "nombre": "Juan", "apellido": "Perez" },
+    { "id": 2, "nombre": "Maria", "apellido": "Gomez" },
+    { "id": 4, "nombre": "Cesar", "apellido": "Rodriguez" },
+    { "id": 5, "nombre": "Juan", "apellido": "Casas" },
+    { "id": 6, "nombre": "Pedro", "apellido": "Lopez" },
+    { "id": 7, "nombre": "Alex", "apellido": "Quintero" },
+    { "id": 8, "nombre": "Luna", "apellido": "Bermudez" }
+  ]
